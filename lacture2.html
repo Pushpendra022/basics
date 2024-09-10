@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML and CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML List Examples</h1>
+    
+    <!-- Unordered List -->
+    <section>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3
+                <ul>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <!-- Ordered List -->
+    <section>
+        <h2>Ordered List</h2>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </section>
+    
+    <!-- Definition List -->
+    <section>
+        <h2>Definition List</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+    
+    <!-- Nested List -->
+    <section>
+        <h2>Nested List</h2>
+        <ul>
+            <li>Category 1
+                <ul>
+                    <li>Subcategory 1.1</li>
+                    <li>Subcategory 1.2</li>
+                </ul>
+            </li>
+            <li>Category 2
+                <ul>
+                    <li>Subcategory 2.1</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+   
+</body>
+</html>
+
+
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+ul, ol, dl {
+    margin: 20px 0;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin: 0 0 10px 20px;
+}
+
+
+
+
+.styled-list li:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+</style>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL IN ONE</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: black; 
+        }
+        p {
+            text-align: left;
+        }
+        
+        .image-container {
+            display: flex;
+            justify-content: space-between; /* Space out items to the left, center, and right */
+            align-items: center; /* Center items vertically */
+            height: 300px; /* Adjust as needed for your images */
+        }
+
+        .image-container img {
+            max-width: 100%; /* Responsive sizing */
+            height: auto;
+        }
+
+        .image-left {
+            /* No additional styling needed, just for clarity */
+        }
+
+        .image-center {
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        .image-right {
+            /* No additional styling needed, just for clarity */
+        }
+
+        .pink {
+            background-color: pink;
+        }
+        .red {
+            background-color: red;
+        }
+        .green {
+            background-color: green;
+        }
+        
+
+
+
+        body {
+            font-family: Arial, sans-serif; /* Ensure font readability */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Include padding and borders in width/height */
+            background-color: #f4f4f4; /* Light background for the page */
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 20px auto; /* Center the container horizontally */
+            padding: 20px;
+            background-color: #fff; /* White background for the form container */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+        
+        h1 {
+            text-align: center; /* Center the heading */
+            color: black;
+            margin-bottom: 20px;
+            font-weight: bold; /* Make the heading bold */
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column; /* Stack form elements vertically */
+        }
+        
+        label {
+            margin-bottom: 5px;
+            font-weight: bold; /* Make labels bold */
+            color: #333;
+        }
+        
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%; /* Full width */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+        
+        textarea {
+            resize: vertical; /* Allow vertical resizing */
+            min-height: 100px; /* Set minimum height */
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff; /* Blue background */
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold; /* Make button text bold */
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+            align-self: center; /* Center the button horizontally */
+        }
+        
+        button:hover {
+            background-color: #0056b3; /* Darker blue for hover effect */
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>MY HEADING</h1>
+    <nav >
+    <h2>FILE</h2>
+    <h2>EDIT</h2> 
+    <h2>SELECTION</h2>
+    <h2>VIEW</h2>
+    <p>THIS IS ONLY AN EXAMPLE NOTHING ELSE</p>
+</nav>
+
+    <!-- List -->
+    <ol type="1">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ol>
+    <ol type="a">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ol>
+    <ol type="A">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ol>
+
+    <ul type="disk">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+    <ul type="square">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+    <ul type="circle">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+
+    <!-- Image alignment --> 
+    <div class="image-container">
+        <img src="1.jpg" class="image-left" alt="Left Image">
+        <img src="2.jpg" class="image-center" alt="Center Image">
+        <img src="3.jpg" class="image-right" alt="Right Image">
+    </div>
+
+    <table border="1">
+        <tr class="green">
+            <th>CODES</th>
+            <th>SUBJECTS NAME</th>
+            <th>L  T  P  J</th>
+            <th>FACULTY</th>
+        </tr>
+        <tr>
+            <td>MCA0011</td>
+            <td>COMPUTER NETWORK</td>
+            <td>3  1  0  0</td>
+            <td>SIDDHARTH SINGH</td>
+        </tr>
+        <tr>
+            <td>MCA0022</td>
+            <td>PYTHON</td>
+            <td>3  0  0  0</td>
+            <td>ROHIT AGGRAWAL</td>
+        </tr>
+        <tr class="pink">
+            <td>MCA0201</td>
+            <td>NETWORKING</td>
+            <td>3  2  0  1</td>
+            <td>DIPTI GAUTAM</td>
+        </tr>
+        <tr>
+            <td>MCA0202</td>
+            <td>DBMS</td>
+            <td>3  2  0  2</td>
+            <td>NO ONE</td>
+        </tr>
+        <tr>
+            <td>MCA0204</td>
+            <td>.NET</td>
+            <td>3  1  0  3</td>
+            <td>SIDDHARTH SINGH</td>
+        </tr>
+        <tr class="red">
+            <td>MCA0205</td>
+            <td>FUNDAMENTALS</td>
+            <td>3  2  0  4</td>
+            <td>MRS. AGGRAWAL</td>
+        </tr>
+        <tr>
+            <td>MCA0206</td>
+            <td>SOFTWARE AND TESTING</td>
+            <td>3  2  0  5</td>
+            <td>MRS RUCHI</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="/submit" method="post">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first_name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+</body>
+</html>
